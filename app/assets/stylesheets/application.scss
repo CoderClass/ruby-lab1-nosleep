@@ -1,12 +1,22 @@
 @import "bootstrap";
 @import "home";
-@import "photos";   
-// file: app/assets/stylesheets/photos.scss
-.card {
+@import "photos";
+
+body {
+  background: #3498db;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+}
+
+.photo {
   width: 500px;
-  margin: 0 auto 30px; // align cards in the center
-  img {
-    max-width: 100%; // image should not be bigger than card
-    border-radius: 0; // remove the rounded corner
-  }
+  margin: 20px auto;
+  border: 1px solid #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+hr {
+  color: #fff;
 }
